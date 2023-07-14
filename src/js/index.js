@@ -38,6 +38,7 @@ function alterarImagemPersonagemSelecionado(personagem) {
 
 function removerSelecaoDoPersonagem() {
     const personagemSelecionado = document.querySelector('.selecionado');
+
     personagemSelecionado.classList.remove('selecionado');
 }
 
